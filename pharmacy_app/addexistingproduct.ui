@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2570</width>
+    <height>1300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-50</x>
+     <y>-60</y>
+     <width>2621</width>
+     <height>1361</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0,0,0,80);
+background-image: url(:/images/background2);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addnewbtn">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>750</y>
+     <width>331</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add Product</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>280</y>
+     <width>821</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(255,255,255,150);
+border:none;
+border-bottom: 2px solid rgba(46,82,101,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;
+
+</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Product Id</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>360</y>
+     <width>821</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(255,255,255,150);
+border:none;
+border-bottom: 2px solid rgba(46,82,101,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;
+
+</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Product Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>630</y>
+     <width>821</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(255,255,255,150);
+border:none;
+border-bottom: 2px solid rgba(46,82,101,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;
+
+</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Date of Purchase</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="unitprice">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>540</y>
+     <width>821</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(255,255,255,150);
+border:none;
+border-bottom: 2px solid rgba(46,82,101,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;
+
+</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Unit Price</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="resetbtn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>20</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="unitprice_2">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>450</y>
+     <width>821</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(255,255,255,150);
+border:none;
+border-bottom: 2px solid rgba(46,82,101,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;
+
+</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Quantity</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="storemanres.qrc"/>
+ </resources>
+ <connections/>
+</ui>

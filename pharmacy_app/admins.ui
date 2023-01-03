@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2566</width>
+    <height>1300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-1</y>
+     <width>2571</width>
+     <height>1301</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0,0,0,80);
+background-image: url(:/images/background2);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>2191</width>
+     <height>1071</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0,50);
+color:rgb(255,255,255);</string>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>Medicine Id</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>61</red>
+      <green>56</green>
+      <blue>70</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Name</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>61</red>
+      <green>56</green>
+      <blue>70</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Catagory</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>61</red>
+      <green>56</green>
+      <blue>70</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Purchase Quantity</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>61</red>
+      <green>56</green>
+      <blue>70</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Available Quantity</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>61</red>
+      <green>56</green>
+      <blue>70</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Unit Price</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>61</red>
+      <green>56</green>
+      <blue>70</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total Price</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>61</red>
+      <green>56</green>
+      <blue>70</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Purchase Date</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>61</red>
+      <green>56</green>
+      <blue>70</blue>
+     </color>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="addbtn">
+   <property name="geometry">
+    <rect>
+     <x>2260</x>
+     <y>300</y>
+     <width>261</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add Item</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addnewbtn">
+   <property name="geometry">
+    <rect>
+     <x>2260</x>
+     <y>530</y>
+     <width>261</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add New Product</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>EXIT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="refrshbtn">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="consumeBtn">
+   <property name="geometry">
+    <rect>
+     <x>2260</x>
+     <y>180</y>
+     <width>261</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Consume Item</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rembtn">
+   <property name="geometry">
+    <rect>
+     <x>2260</x>
+     <y>420</y>
+     <width>261</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Remove Product</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="storemanres.qrc"/>
+ </resources>
+ <connections/>
+</ui>
