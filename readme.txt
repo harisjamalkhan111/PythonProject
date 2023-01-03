@@ -1,0 +1,1 @@
+clone this repo and open this project in some IDE (Pycharm) and run the main.py script
